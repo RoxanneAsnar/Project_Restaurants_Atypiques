@@ -1,0 +1,22 @@
+body{
+    background-color: color:rgb(207,181,144);
+    box-sizing: border-box;
+}
+
+div#concept{
+    padding : 20px;
+    background-color: rgb(117,137,24);
+}
+
+
+img#wood{
+    width:100%;
+}
+
+p#our-concept{
+    color:white;
+    font-size:1em;
+}
+h2 #concept{
+
+}
