@@ -3,9 +3,13 @@ body{
     box-sizing: border-box;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 div#concept{
     padding : 20px;
-    background-color: rgb(117,137,24);
+    background-color: #703A04;
 }
 
 
@@ -19,4 +23,62 @@ p#our-concept{
 }
 h2 #concept{
 
+}
+
+div#contact{
+    margin-top:20px;
+    background-image: url("http://localhost:8080/img/wood-texture-3.jpg");
+    background-size: 1080px 1920px;
+    padding: 40px;
+}
+
+#large-buttons{
+    margin-bottom: 10px;
+}
+
+
+footer{
+    background-color: ;
+}
+
+#form1{
+    display:none;
+}
+
+#form2{
+    display:none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ADBD06;
+    border-color: #8E9B00;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    background-color: #8E9B00;
+    border-color: #ADBD06;
+}
+
+h2{
+    font-family: 'Croissant One', cursive;
+}
+h2#notre-concept{
+    color:#ADBD06;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+textarea{
+    margin-bottom:20px;
+}
+
+h2.form{
+    color:white;
+}
+
+img#wood{
+    margin-bottom:15px;
 }
