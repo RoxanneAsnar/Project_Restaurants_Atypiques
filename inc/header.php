@@ -16,8 +16,8 @@
             <li class="active"><a href="#concept">Le concept</a></li>
             <li><a href="#createurs">Les créateurs</a></li>
             <li><a href="#top">Le top 3</a></li>
-            <li><a href="find-us">Où nous trouver</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="#find-us">Où nous trouver</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
 
