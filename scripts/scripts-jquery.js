@@ -22,3 +22,10 @@ switch()
         $('#form1').hide();
     });
 
+    /*$object.onmousedown = function($clickDown){
+        $('.btn-primary').css('background-color:#8E9B00;');
+    };
+$clickDown('.btn-primary').on('click', function(){
+        $('.btn-primary').css('background-color:#8E9B00;');
+    });
+*/
