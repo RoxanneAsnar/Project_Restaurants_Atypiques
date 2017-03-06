@@ -124,3 +124,14 @@ div#container-contact{
     border-color: #8E9B00;
     box-shadow: none;
 }
+
+.roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    width:200px;
+    height:200px;
+    margin-right: auto;
+    margin-left:auto;
+}
