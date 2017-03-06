@@ -13,7 +13,7 @@
             <p>Je me rappelle encore du jour où, étant jeune, mes parents m’ont emmené en voyage en Australie chez les aborigènes. J’y ai goûté des yeux d’autruches, un plat que nous autres Européens trouverions absolument abominable. Et j’ai adoré! Depuis ce jour, je me suis toujours dit que j’amènerais la cuisine originale auprès du grand public.</p></br>
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-            <div class="roundedImage"><img src="img/laurent.jpg" alt="Laurent Dupons"></div>
+            <div class="roundedImage"><img src="img/laurent.jpg" alt="Laurent Dupons" id="laurent"></div>
             <h2>Laurent DUPONS</h2>
             <p>Issu d’une grande école de commerce, Laurent n’en est pas à son coup d’essai. “Restaurants Atypiques” n’est que le dernier-né d’une série de projets originaux: d’une start-up proposant des activités de plein air à une société qui organise des soirées à thèmes
                 complètement décalées, son maître-mot est “Have fun!”</p></br>

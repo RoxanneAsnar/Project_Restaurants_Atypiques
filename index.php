@@ -12,6 +12,7 @@
     <link rel="stylesheet"
           href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Croissant+One|Raleway" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Restaurants Atypiques</title>
 </head>
 <body>
@@ -85,8 +86,9 @@
                 crossorigin="anonymous">
         </script>
 
-        <script src="scripts/scripts-jquery.js">
-        </script>
+        <script src="scripts/scripts-jquery.js"></script>
+
+        <script src="scripts/smooth-scroll.js"></script>
     </div>
 </body>
 </html>

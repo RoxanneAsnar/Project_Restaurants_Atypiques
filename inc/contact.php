@@ -2,12 +2,15 @@
     <div id="contact">
 
         <div class="row" id="large-buttons">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 <button type="button" class="btn btn-primary btn-lg btn-block" id="info-button">Besoin d'informations ?</button>
             </div>
 
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <button type="button" class="btn btn-primary btn-lg btn-block" id="joinus-button" >Envie de rejoindre la franchise ?</button>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" >
+               <button type="button" class="btn btn-primary btn-lg btn-block" id="joinus-button" >Envie de rejoindre la franchise ?</button>
+            </div>
+            <div class="col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2" >
+
             </div>
         </div>
 
