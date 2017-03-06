@@ -7,11 +7,33 @@ body{
     box-sizing: border-box;
 }
 
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* HEADER */
+
+ul.nav.navbar-nav{
+    display:inline;
+    float:right;
+}
+
+nav li a:focus .nav li a:hover {
+    text-decoration: none;
+    background-color: none;
+}
+
+h1{
+    display:inline;
+    float: left;
+}
+
+/* CONCEPT */
+
 div#concept{
     padding : 20px;
     background-color: #703A04;
 }
-
 
 img#wood{
     width:100%;
@@ -21,22 +43,47 @@ p#our-concept{
     color:white;
     font-size:1em;
 }
-h2 #concept{
 
+h2{
+    font-family: 'Croissant One', cursive;
 }
+h2#notre-concept{
+    color:#ADBD06;
+}
+
+img#wood{
+    margin-bottom:15px;
+}
+
+img#logo{
+    width:15%;
+    float:left;
+}
+
+/* CREATORS */
+.roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    width:200px;
+    height:200px;
+    margin-right: auto;
+    margin-left:auto;
+}
+/* CONTACT */
 
 div#contact{
     margin-top:20px;
     padding: 40px;
 }
 
-#large-buttons{
-    margin-bottom: 10px;
+textarea{
+    margin-bottom:20px;
 }
 
-
-footer{
-    background-color: ;
+h2.form{
+    color:white;
 }
 
 #form1{
@@ -51,49 +98,6 @@ footer{
     color: #fff;
     background-color: #ADBD06;
     border-color: #8E9B00;
-}
-
-h2{
-    font-family: 'Croissant One', cursive;
-}
-h2#notre-concept{
-    color:#ADBD06;
-}
-
-p{
-    font-family: 'Raleway', sans-serif;
-}
-
-textarea{
-    margin-bottom:20px;
-}
-
-h2.form{
-    color:white;
-}
-
-img#wood{
-    margin-bottom:15px;
-}
-
-img#logo{
-    width:15%;
-    float:left;
-}
-
-h1{
-    display:inline;
-    float: left;
-}
-
-ul.nav.navbar-nav{
-    display:inline;
-    float:right;
-}
-
-nav li a:focus .nav li a:hover {
-    text-decoration: none;
-    background-color: none;
 }
 
 div#container-contact{
@@ -125,13 +129,12 @@ div#container-contact{
     box-shadow: none;
 }
 
-.roundedImage{
-    overflow:hidden;
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    border-radius:100px;
-    width:200px;
-    height:200px;
-    margin-right: auto;
-    margin-left:auto;
+#large-buttons{
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: ;
 }
