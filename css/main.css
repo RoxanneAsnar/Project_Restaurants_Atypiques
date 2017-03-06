@@ -27,7 +27,6 @@ h2 #concept{
 
 div#contact{
     margin-top:20px;
-    background-image: url("http://localhost:8080/img/wood-texture-3.jpg");
     padding: 40px;
 }
 
@@ -97,6 +96,10 @@ nav li a:focus .nav li a:hover {
     background-color: none;
 }
 
+div#container-contact{
+    background-image: url("http://localhost:8080/img/wood-texture-3.jpg");
+    width: 100%;
+}
 
 .form-control:focus {
     border-color: #ADBD06;
