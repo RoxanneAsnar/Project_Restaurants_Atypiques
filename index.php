@@ -11,6 +11,7 @@
           crossorigin="anonymous">
     <link rel="stylesheet"
           href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Croissant+One|Raleway" rel="stylesheet">
     <title>Restaurants Atypiques</title>
 </head>
 <body>
@@ -23,13 +24,13 @@
 
             <div id="concept" class="row">
 
-                <h2>Notre concept</h2>
+                <h2 id="notre-concept">Notre concept</h2>
 
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <img src="img/wood-interior.jpg" alt="Great restaurant with wood interior" id="wood">
                 </div>
 
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 
                     <p id="our-concept">
                         Vous rêviez de manger un couscous suspendu à 30 mètres de hauteur? Vous proposez dans votre steakhouse de déguster un bon steak entourés de fauves en plein air? Nous sommes là pour vous. Notre concept est simple: rassembler tous les restaurants qui proposent un cadre original, un menu (d)étonnant et les mettre en relations avec les clients désireux de nouvelles expériences gastronomiques.
@@ -104,13 +105,7 @@
 
             </div>
 
-            <div id="contact">
-
-                <div id="form">
-
-                </div>
-
-            </div>
+            <?php include "inc/contact.php"; ?>
 
         </main>
 
@@ -125,6 +120,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
                 integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
                 crossorigin="anonymous">
+        </script>
+
+        <script src="scripts/scripts-jquery.js">
         </script>
     </div>
 </body>
