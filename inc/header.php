@@ -1,7 +1,8 @@
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <img src="img/logo-test.png" alt="logo" id="logo">
+        <button type="button" class="navbar-toggle navbar-inverse"data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -19,7 +20,6 @@
             <li><a href="#find-us">Où nous trouver</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-
 
     </div><!-- /.navbar-collapse -->
 </nav>
