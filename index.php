@@ -40,18 +40,21 @@
 
             </div>
 
-            <div id="creators">
+            <div id="creators"><h2>Un mot des créateurs</h2>
                 <div class="row " ">
                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <img src="img/damien.jpg" alt="Damien Dupont">
                         <h2>Damien DUPONT</h2>
                         <p>Un jour j’ai erré dans les rues, et j’ai passé une heure à regarder les devantures des restaurants, essayant de m’imaginer lequel pourrait satisfaire mes papilles. Laissant mon esprit vagabonder, j’ai voyagé, et blabla...</p></br>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <img src="img/julien.jpg" alt="Julien Dupond">
                         <h2>Julien DUPOND</h2>
                     <p>Je me rappelle encore du jour où, étant jeune, mes parents m’ont emmené en voyage en Australie chez les aborigènes. J’y ai goûté des yeux d’autruches, un plat que nous autres Européens trouverions absolument abominable. Et j’ai adoré! Depuis ce jour, je me suis toujours dit que j’amènerais la cuisine originale auprès du grand public.</p></br>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <h2>Laurent DUPON</h2>
+                        <img src="img/laurent.jpg" alt="Laurent Dupons">
+                    <h2>Laurent DUPONS</h2>
                     <p>Issu d’une grande école de commerce, Laurent n’en est pas à son coup d’essai. “Restaurants Atypiques” n’est que le dernier-né d’une série de projets originaux: d’une start-up proposant des activités de plein air à une société qui organise des soirées à thèmes
                     complètement décalées, son maître-mot est “Have fun!”</p></br>
                     </div>
@@ -70,19 +73,19 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img class="center-block" src="img/il_vino.jpg" alt="Il Vino">
+                            <img class="center-block" src="img/ilvino.jpg" alt="Il Vino">
                         </div>
                         <div class="item">
-                            <img class="center-block" src="img/café_des_chats.jpg" alt="Le Coin Des Chats">
+                            <img class="center-block" src="img/cafe_des_chats.jpg" alt="Le Coin Des Chats">
                         </div>
                         <div class="item">
-                            <img class="center-block" src="img/dans_le_noir.jpg" alt="Dans Le Noir">
+                            <img class="center-block" src="img/dans_le%20_noir.jpg" alt="Dans Le Noir">
                         </div>
                     </div>
 
                     <!-- Controls -->
                     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                        <img src="/img/slider_icons.png">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
                     </a>
                     <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
                         <span class="glyphicon glyphicon-chevron-right"></span>
@@ -109,7 +112,6 @@
         <footer>
             <?php include "inc/footer.php"; ?>
         </footer>
-
 
         <script src="https://code.jquery.com/jquery-3.1.1.js"
                 integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
