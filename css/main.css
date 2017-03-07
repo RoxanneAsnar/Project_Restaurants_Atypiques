@@ -1,13 +1,39 @@
 body{
-    background-color: color:rgb(207,181,144);
+    background-color: #F3E9C5;
     box-sizing: border-box;
 }
 
-div#concept{
-    padding : 20px;
-    background-color: rgb(117,137,24);
+*{
+    box-sizing: border-box;
 }
 
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* HEADER */
+
+ul.nav.navbar-nav{
+    display:inline;
+    float:right;
+}
+
+nav li a:focus .nav li a:hover {
+    text-decoration: none;
+    background-color: none;
+}
+
+h1{
+    display:inline;
+    float: left;
+}
+
+/* CONCEPT */
+
+div#concept{
+    padding : 20px;
+    background-color: #703A04;
+}
 
 img#wood{
     width:100%;
@@ -17,6 +43,98 @@ p#our-concept{
     color:white;
     font-size:1em;
 }
-h2 #concept{
 
+h2{
+    font-family: 'Croissant One', cursive;
+}
+h2#notre-concept{
+    color:#ADBD06;
+}
+
+img#wood{
+    margin-bottom:15px;
+}
+
+img#logo{
+    width:15%;
+    float:left;
+}
+
+/* CREATORS */
+.roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    width:200px;
+    height:200px;
+    margin-right: auto;
+    margin-left:auto;
+}
+/* CONTACT */
+
+div#contact{
+    margin-top:20px;
+    padding: 40px;
+}
+
+textarea{
+    margin-bottom:20px;
+}
+
+h2.form{
+    color:white;
+}
+
+#form1{
+    display:none;
+}
+
+#form2{
+    display:none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ADBD06;
+    border-color: #8E9B00;
+}
+
+div#container-contact{
+    background-image: url("http://localhost:8080/img/wood-texture-3.jpg");
+    width: 100%;
+}
+
+.form-control:focus {
+    border-color: #ADBD06;
+    box-shadow: inset 0 1px 1px rgba(173,189,5,.075);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ADBD06;
+    border-color: #8E9B00;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    cursor:pointer;
+    background: #8E9B00;
+    border-color: #8E9B00;
+}
+
+.btn-primary:active, .btn-primary.active, .btn-primary:link{
+    cursor:pointer;
+    background: #8E9B00;
+    border-color: #8E9B00;
+    box-shadow: none;
+}
+
+#large-buttons{
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: ;
 }
