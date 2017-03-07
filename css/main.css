@@ -1,6 +1,6 @@
 body{
-    background-color: #F3E9C5;
     box-sizing: border-box;
+
 }
 
 *{
@@ -10,22 +10,29 @@ body{
 p{
     font-family: 'Raleway', sans-serif;
 }
+h2{
+    font-family: 'Croissant One', cursive;
+}
+
 .container-fluid {
     padding-right: 0;
     padding-left: 0;
+}
+/* MAIN */
+main{
+    margin-top: -55px;
 }
 
 /* HEADER */
 
 ul.nav.navbar-nav{
     display:inline;
-    float:right;
+    position:fixed;
+    right:5px;
     font-family:'Raleway',sans-serif;
     font-size:1.2em;
     font-weight:300;
 }
-
-
 
 .navbar{
     margin-bottom: 0;
@@ -34,37 +41,76 @@ ul.nav.navbar-nav{
 nav li a:focus .nav li a:hover {
     text-decoration: none;
     background-color: none;
+    color: #BE1E2D;
 }
 .nav > li > a:focus, .nav > li > a:hover {
     background-color: transparent;
 }
 
-h1{
-    display:inline;
-    float: left;
-}
 
+/*div.collapse{
+    background-color: rgba(51,51,51,0.7);
+}*/
 /* CONCEPT */
 
 div#concept{
     padding : 20px;
     background-color: #703A04;
-    background-image: url(img/original-restaurant-3);
+    background-image: url(../img/original-restaurant-6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 100% 100%;
+    min-height: 100vh;
 
 }
 
-img#wood{
-    width:100%;
+#container-text{
+    margin-top: 15%;
+    margin-bottom:auto;
+    background-color: rgba(51,51,51,0.5);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding:10px;
 }
+
+h1{
+    font-family: 'Croissant One', cursive;
+    font-size:3.5em;
+    color:white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+h1 , p#our-concept{
+    text-align: center;
+}
+
+#foryou{
+    font-size:1.2em;
+    font-weight:bold;
+}
+
+/*
+#couscous{
+    color:#F7941E;
+}
+
+#steakhouse{
+    color:#BE1E2D;
+}
+p#our-concept{
+    margin-left:30%;
+    margin-right:30%;
+}*/
+
 
 p#our-concept{
     color:white;
-    font-size:1em;
+    font-size:1.2em;
 }
 
-h2{
-    font-family: 'Croissant One', cursive;
-}
+
 h2#notre-concept{
     color:#ADBD06;
 }
@@ -74,8 +120,10 @@ img#wood{
 }
 
 img#logo{
-    width:15%;
+    width:500%;
+    height:500%;
     float:left;
+    left:0;
 }
 
 /* CREATORS */
@@ -93,6 +141,10 @@ img#logo{
 img#laurent{
     width: 120%;
 }
+
+#creators{
+    min-height: 100vh;
+}
 /* CONTACT */
 
 div#contact{
@@ -109,10 +161,13 @@ h2.form{
 
 #form1{
     display:none;
+    width: 50%;
+
 }
 
 #form2{
     display:none;
+    width: 50%;
 }
 
 .btn-primary {
@@ -122,8 +177,12 @@ h2.form{
 }
 
 div#container-contact{
-    background-image: url("http://localhost:8080/img/wood-texture-3.jpg");
-    width: 100%;
+    background-image: url(../img/original-restaurant-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 100% 100%;
+    min-height: 100vh;
 }
 
 .form-control:focus {

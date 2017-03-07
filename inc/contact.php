@@ -7,7 +7,7 @@
             </div>
 
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" >
-               <button type="button" class="btn btn-primary btn-lg btn-block" id="joinus-button" >Envie de rejoindre la franchise ?</button>
+               <button type="button" class="btn btn-primary btn-lg btn-block" id="joinus-button">Envie de rejoindre la franchise ?</button>
             </div>
             <div class="col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2" >
 
@@ -28,7 +28,7 @@
                                     Votre message
                                     </textarea>
 
-                    <button type="submit" class="btn btn-primary send" onmousedown="clickDown()">Envoyer</button>
+                    <button type="submit" class="btn btn-primary send">Envoyer</button>
                 </div>
 
             </form>
