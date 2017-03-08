@@ -26,23 +26,21 @@ main{
 
 /* HEADER */
 
-.custom-nav{
-    display:inline-block;
-    position:fixed;
-    right:5px;
-    font-family:'Raleway',sans-serif;
-    font-size:1.2em;
-    font-weight:300;
+custom-nav-mobile{
 }
 
-custom-nav-mobile{
-
+img#logo{
+    width:100%;
+    height:100%;
+    float:left;
+    left:0;
+    z-index: 150;
 }
 
 ul.nav.navbar-nav{
     display:inline;
     position:fixed;
-    right:5px;
+    right: 5px;
     font-family:'Raleway',sans-serif;
     font-size:1.2em;
     font-weight:300;
@@ -52,6 +50,7 @@ ul.nav.navbar-nav{
     margin-bottom: 0;
     border-radius:unset;
     position: fixed;
+
 }
 
 .navbar-nav > li , .navbar-inverse {
@@ -85,16 +84,16 @@ div#concept{
     background-color: #703A04;
     background-image: url(../img/original-restaurant-6.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
-    background-position: top;
-    background-size: 100% 100%;
+    background-size: cover;
     min-height: 100vh;
 
 }
 
 #container-text{
     margin-top: 15%;
-    margin-bottom:auto;
+    margin-bottom: auto;
     background-color: rgba(51,51,51,0.5);
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
@@ -117,21 +116,6 @@ h1 , p#our-concept{
     font-size:1.2em;
     font-weight:bold;
 }
-
-/*
-#couscous{
-    color:#F7941E;
-}
-
-#steakhouse{
-    color:#BE1E2D;
-}
-p#our-concept{
-    margin-left:30%;
-    margin-right:30%;
-}*/
-
-
 p#our-concept{
     color:white;
     font-size:1.2em;
@@ -146,14 +130,12 @@ img#wood{
     margin-bottom:15px;
 }
 
-img#logo{
-    width:500%;
-    height:500%;
-    float:left;
-    left:0;
-}
+
 
 /* CREATORS */
+#creators .row {
+    margin: auto;
+}
 
 .roundedImage{
     overflow:hidden;
@@ -167,6 +149,16 @@ img#logo{
 }
 
 /* MAP */
+
+@media screen and (max-width: 768px) {
+    #find-us {
+        min-height: 100vh;
+    }
+
+    #map {
+        width: 100%;
+    }
+}
 
 #map {
     width: 100%;
@@ -194,16 +186,19 @@ h2.form{
     color:white;
 }
 
-#form1{
+#form1 , #form2 {
     display:none;
-    width: 50%;
-
+    width: 30%;
+    margin: auto;
 }
 
-#form2{
+.textarea
+
+/*#form2{
     display:none;
     width: 50%;
-}
+    margin: auto;
+}*/
 
 .btn-primary {
     color: #fff;
@@ -215,8 +210,8 @@ div#container-contact{
     background-image: url(../img/original-restaurant-1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top;
-    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
     min-height: 100vh;
 }
 

@@ -1,7 +1,6 @@
 
 <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
     <div class="container">
-
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header custom-nav">
             <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="logo" id="logo"></a>
@@ -12,7 +11,6 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse custom-nav-mobile">
             <ul class="nav navbar-nav">
@@ -23,6 +21,5 @@
                 <li><a href="#contact" class="js-scrollTo" >Contact</a></li>
             </ul>
         </div>
-
     </div><!-- /.navbar-collapse -->
 </nav>

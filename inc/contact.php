@@ -24,9 +24,7 @@
                     <input type="text" class="form-control" name="firstname" id="" placeholder="Prénom" required> <br/>
                     <input type="text" class="form-control" name="email" id="" placeholder="mail@email.fr" required><br/>
 
-                    <textarea name="textarea" class="form-control col-xs-12 col-sm-12 col-md-12 col-lg-12" name="message" id="" type="text" required>
-                                    Votre message
-                                    </textarea>
+                    <textarea name="textarea" class="text-area form-control col-xs-12 col-sm-12 col-md-12 col-lg-12" name="message" id="" type="text" required></textarea>
 
                     <button type="submit" class="btn btn-primary send">Envoyer</button>
                 </div>
@@ -47,10 +45,8 @@
                     <input type="text" class="form-control" name="" id="name-restaurant" placeholder="Le nom de votre super restaurant" required> <br/>
                     <input type="text" class="form-control" name="" id="email" placeholder="mail@email.fr"required > <br/>
 
-                    <textarea name="textarea" class="form-control col-xs-12 col-sm-12 col-md-12 col-lg-12" name="message" id="" type="text" placeholder="Votre message" required>
-                                    Votre message
-                                </textarea><br/>
-
+                    <textarea name="textarea" class="text-area form-control col-xs-12 col-sm-12 col-md-12 col-lg-12" name="message" id="" type="text" placeholder="Votre message" required>
+                    </textarea><br/>
                     <button type="submit" class="btn btn-primary send">Envoyer</button>
                 </div>
 

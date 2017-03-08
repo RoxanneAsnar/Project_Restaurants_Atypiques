@@ -6,7 +6,6 @@
         <div class="offset-lg-1 ">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 offset-lg-1 col-lg-3">
-
             <div class="roundedImage"><img src="img/damien.jpg" alt="Damien Dupont"></div>
             <h3>Damien DUPONT</h3>
             <p>Un jour j’ai erré dans les rues, et j’ai passé une heure à regarder les devantures des restaurants, essayant de m’imaginer lequel pourrait satisfaire mes papilles. Laissant mon esprit vagabonder, j’ai voyagé, et blabla...</p></br>
