@@ -10,17 +10,33 @@ body{
 p{
     font-family: 'Raleway', sans-serif;
 }
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
 
 /* HEADER */
 
 ul.nav.navbar-nav{
     display:inline;
     float:right;
+    font-family:'Raleway',sans-serif;
+    font-size:1.2em;
+    font-weight:300;
+}
+
+
+
+.navbar{
+    margin-bottom: 0;
 }
 
 nav li a:focus .nav li a:hover {
     text-decoration: none;
     background-color: none;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: transparent;
 }
 
 h1{
@@ -33,6 +49,8 @@ h1{
 div#concept{
     padding : 20px;
     background-color: #703A04;
+    background-image: url(img/original-restaurant-3);
+
 }
 
 img#wood{
@@ -80,10 +98,13 @@ img#logo{
     height: 600px;
 }
 
+img#laurent{
+    width: 120%;
+}
+
 /* CONTACT */
 
 div#contact{
-    margin-top:20px;
     padding: 40px;
 }
 
@@ -123,6 +144,7 @@ div#container-contact{
     color: #fff;
     background-color: #ADBD06;
     border-color: #8E9B00;
+    font-size:0.9em;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {

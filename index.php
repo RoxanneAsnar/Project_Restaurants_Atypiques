@@ -12,6 +12,7 @@
     <link rel="stylesheet"
           href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Croissant+One|Raleway" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Restaurants Atypiques</title>
 </head>
 <body>
@@ -87,10 +88,17 @@
                 integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
                 crossorigin="anonymous">
         </script>
+
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBKs7XZ5tqp9RXFJi0TU9psEZecCkw-z4Y "></script>
         <script type="text/javascript" src="scripts/jquery.googlemap.js"></script>
         <script type="text/javascript" src="scripts/script-gmap.js"</script>
         <script type="text/javascript" src="scripts/scripts-jquery.js"></script>
+
+
+        <script src="scripts/scripts-jquery.js"></script>
+
+        <script src="scripts/smooth-scroll.js"></script>
+
     </div>
 </body>
 </html>
