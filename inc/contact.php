@@ -22,13 +22,13 @@
                 <div class="form-group">
                     <input type="text" class="form-control" name="name" id="" placeholder="Nom" required> <br/>
                     <input type="text" class="form-control" name="firstname" id="" placeholder="Prénom" required> <br/>
-                    <input type="text" class="form-control" name="email" id="" placeholder="mail@email.fr"required><br/>
+                    <input type="text" class="form-control" name="email" id="" placeholder="mail@email.fr" required><br/>
 
                     <textarea name="textarea" class="form-control col-xs-12 col-sm-12 col-md-12 col-lg-12" name="message" id="" type="text" required>
                                     Votre message
                                     </textarea>
 
-                    <button type="submit" class="btn btn-primary send" onmousedown="clickDown()">Envoyer</button>
+                    <button type="submit" class="btn btn-primary send">Envoyer</button>
                 </div>
 
             </form>
