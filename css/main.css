@@ -21,9 +21,23 @@ h2{
 /* MAIN */
 main{
     margin-top: -55px;
+    z-index: 100;
 }
 
 /* HEADER */
+
+.custom-nav{
+    display:inline-block;
+    position:fixed;
+    right:5px;
+    font-family:'Raleway',sans-serif;
+    font-size:1.2em;
+    font-weight:300;
+}
+
+custom-nav-mobile{
+
+}
 
 ul.nav.navbar-nav{
     display:inline;
@@ -36,11 +50,24 @@ ul.nav.navbar-nav{
 
 .navbar{
     margin-bottom: 0;
+    border-radius:unset;
+    position: fixed;
+}
+
+.navbar-nav > li , .navbar-inverse {
+    background-color: rgb(129,174,57);
+    color:white;
+    border:none;
+}
+
+nav li a {
+    color:white;
+    font-weight:500;
 }
 
 nav li a:focus .nav li a:hover {
     text-decoration: none;
-    background-color: none;
+    background-color: unset;
     color: #BE1E2D;
 }
 .nav > li > a:focus, .nav > li > a:hover {

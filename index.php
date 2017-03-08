@@ -17,7 +17,7 @@
 </head>
 <body>
 
-    <div class="container-fluid">
+<div class="container-fluid">
         <header>
             <?php include "inc/header.php"; ?>
         </header>
