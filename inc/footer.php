@@ -1,9 +1,23 @@
 <div class="row">
-    <div class="footer col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h3>Footer</h3>
+    <div class="col-xs-3 col-sm-3 col-md-4 col-lg-4">
+        <p>
+            moqsginyù pçu bdùpudni pzkpnrize*e^àrzer
+        </p>
+    </div>
+
+    <div class="col-xs-3 col-sm-3 col-md-4 col-lg-4">
+        <p>
+            moqsginyù pçu bdùpudni pzkpnrize*e^àrzer
+        </p>
+    </div>
+
+    <div class="col-xs-3 col-sm-3 col-md-4 col-lg-4">
+        <p>
+            moqsginyù pçu bdùpudni pzkpnrize*e^àrzer
+        </p>
         <div class="scroll-up">
-            <a href="#concept">
-                <i class="fa fa-angle-double-up js-scrollTo"></i>
+            <a href="#header">
+                <i class="class="fa fa-arrow-up js-scrollTo aria-hidden="true"></i>
             </a>
         </div>
         <div><a id="mentions" data-toggle="modal" data-target="#myModal">Mentions Légales</a></div>

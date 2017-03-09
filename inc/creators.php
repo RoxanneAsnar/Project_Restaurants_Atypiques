@@ -1,7 +1,6 @@
 <div id="creators">
-    <div class="row">
-        <h2 class=" title_creators">Un mot des créateurs</h2>
-        <div class="offset-lg-1 "></div>
+    <div class="row" id="crea">
+        <h2>Un mot des créateurs</h2>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <div class="roundedImage"><img src="img/damien.jpg" alt="Damien Dupont"></div>
             <h3>Damien DUPONT</h3>
@@ -18,6 +17,5 @@
             <p>Issu d’une grande école de commerce, Laurent n’en est pas à son coup d’essai. “Restaurants Atypiques” n’est que le dernier-né d’une série de projets originaux: d’une start-up proposant des activités de plein air à une société qui organise des soirées à thèmes
                 complètement décalées, son maître-mot est “Have fun!”</p></br>
         </div>
-        <div class="offset-sm-4 offset-lg-1"></div>
     </div>
 </div>

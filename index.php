@@ -16,8 +16,8 @@
     <title>Restaurants Atypiques</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <header>
+<div class="container-fluid">
+        <header id="header">
             <?php include "inc/header.php"; ?>
         </header>
         <main>
