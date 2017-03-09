@@ -180,6 +180,18 @@ div.creators-text-container{
     height: 265px;
 }
 
+@media screen and (max-width: 768px) {
+    #find-us {
+        min-height: 100vh;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    #creators {
+        min-height: 50vh;
+    }
+}
+
 #creators .row {
     margin: auto;
 }
@@ -218,6 +230,7 @@ title {
 }
 /* MAP */
 
+}
 @media screen and (max-width: 768px) {
     #find-us {
         min-height: 100vh;
@@ -233,17 +246,34 @@ title {
     height: 600px;
 }
 
+
+/* LIST */
+
+.where {
+    margin-top: 50px;
+}
+
+h4 {
+    margin-top: 0;
+}
+
 div#find-us{
     padding: 20px;
 }
 
 /* LISTE */
 
+
 .text-area {
      resize: none;
      cols: 8;
      rows: 20;
  }
+
+#list img {
+    max-width: 80%;
+    height: auto;
+}
 
 /* CONTACT */
 
@@ -310,6 +340,7 @@ div#container-contact{
     background-color: #EE712A;
     border-color: #DD6425;
     font-size:0.9em;
+
     margin-bottom: 15px;
 }
 
@@ -335,15 +366,19 @@ div#container-contact{
 
 /* FOOTER */
 
+
 #mentions h3 {
     font-family: 'Raleway', sans-serif;
 }
 
+
 footer{
     height: 250px;
-    background-color: #343436;
+    background-color: #44453F;
     color:white;
+
     padding: 20px;
+
 }
 
 .scroll-up a {
@@ -361,9 +396,15 @@ footer{
     -o-border-radius: 3px;
     border-radius: 3px;
 }
+#mentions {
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
 
 .modal-content {
     padding: 0px 10px;
+    color: black;
 }
 
 i.fa {
@@ -375,4 +416,3 @@ i.fa {
 div.scroll-up{
     float:right;
 }
-
