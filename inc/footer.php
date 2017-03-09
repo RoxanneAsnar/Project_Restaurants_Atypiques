@@ -9,7 +9,16 @@
         </p>
     </div>
     <div class="col-xs-3 col-sm-3 col-md-4 col-lg-4">
-        <a id="mentions" href="#myModal" data-toggle="modal" data-target="#myModal">Mentions Légales</a>
+        <p>
+            moqsginyù pçu bdùpudni pzkpnrize*e^àrzer
+        </p>
+        <div class="scroll-up">
+            <a href="#header" class="js-scrollTo" >
+                <i class="fa fa-arrow-up js-scrollTo" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div><a id="mentions" data-toggle="modal" data-target="#myModal">Mentions Légales</a></div>
+
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">

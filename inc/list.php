@@ -1,5 +1,6 @@
 <div id="list">
     <div class="row">
+
         <div class="col-xs-12 col-lg-6" data-toggle="modal" data-target="#table"><h4>LYON</h4>
             <a href="#table_modal" data-toggle="modal" data-target="#table_modal">
                 <img src="/img/la_table_en_braille.jpg" alt="La table en braille"></a>
