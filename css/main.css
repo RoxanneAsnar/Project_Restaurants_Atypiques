@@ -88,7 +88,7 @@ nav li a:focus .nav li a:hover {
 }
 
 #container-text {
-    margin-top: 15%;
+
     margin-bottom: auto;
     background-color: rgba(51,51,51,0.5);
     -webkit-border-radius: 25px;
@@ -174,6 +174,10 @@ title {
 
 /* CONTACT */
 
+#large-buttons {
+    margin: 20px auto 10px;
+}
+
 div#contact {
     padding: 40px;
 }
@@ -182,27 +186,20 @@ div#contact {
     color: white;
 }
 
-textarea {
+.text-area1, .text-area2 {
     margin-bottom:20px;
+    height: 150px;
 }
 
-h2.form{
+h2.form {
     color:white;
 }
 
 #form1 , #form2 {
     display:none;
-    width: 30%;
-    margin: auto;
-}
-
-.textarea
-
-/*#form2{
-    display:none;
     width: 50%;
     margin: auto;
-}*/
+}
 
 .btn-primary {
     color: #fff;
@@ -237,16 +234,13 @@ div#container-contact{
     border-color: #8E9B00;
 }
 
-.btn-primary:active, .btn-primary.active, .btn-primary:link{
+.btn-primary:active, .btn-primary.active, .btn-primary:link {
     cursor:pointer;
     background: #8E9B00;
     border-color: #8E9B00;
     box-shadow: none;
 }
 
-#large-buttons{
-    margin-bottom: 10px;
-}
 
 /* FOOTER */
 
