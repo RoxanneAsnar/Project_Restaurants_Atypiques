@@ -1,9 +1,17 @@
+body{
+    box-sizing: border-box;
+}
 p{
     font-family: 'Raleway', sans-serif;
 }
-h2{
+
+h2 {
     font-family: 'Croissant One', cursive;
     margin-top: 20px;
+}
+
+#mentions h3 {
+    font-family: 'Raleway', sans-serif;
 }
 
 .container-fluid {
@@ -11,6 +19,7 @@ h2{
     padding-left: 0;
 }
 /* MAIN */
+
 main{
     margin-top: 50px;
     z-index: 100;
@@ -19,10 +28,22 @@ main{
 /* HEADER */
 
 
+
+img#logo{
+    width:100%;
+    height:100%;
+    float:left;
+    left:0;
+    z-index: 150;
+}
+
+
 ul.nav.navbar-nav{
     display:inline;
     position:fixed;
-    right:0;
+
+    right: 5px;
+
     font-family:'Raleway',sans-serif;
     font-size:1.2em;
     font-weight:300;
@@ -34,6 +55,7 @@ nav{
     margin-bottom: 0;
     border-radius:unset;
     position: fixed;
+
 }
 
 .navbar-nav > li , .navbar-inverse {
@@ -116,74 +138,56 @@ nav{
     padding: 5px;
     width: 1200px;
 }
-
 /* CONCEPT */
 
-div#concept{
+#concept {
     padding : 20px;
-    background-color: #703A04;
-    background-image: url(../img/original-restaurant-6.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top;
-    background-size: 100% 100%;
+    background: url(../img/original-restaurant-6.jpg) center/cover no-repeat fixed;
     min-height: 100vh;
-
 }
 
-#container-text{
-    margin-top: 15%;
-    margin-bottom:auto;
+#container-text {
+
+    margin-bottom: auto;
     background-color: rgba(51,51,51,0.5);
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
     padding:10px;
+    width: 50%;
 }
 
-h1{
+h1 {
     font-family: 'Croissant One', cursive;
     font-size:3.5em;
     color:white;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-}
-
-h1 , p#our-concept{
     text-align: center;
 }
 
-#foryou{
+#our-concept {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+#foryou {
     font-size:1.2em;
     font-weight:bold;
 }
 
-/*
-#couscous{
-    color:#F7941E;
-}
-
-#steakhouse{
-    color:#BE1E2D;
-}
-p#our-concept{
-    margin-left:30%;
-    margin-right:30%;
-}*/
-
-
-p#our-concept{
-    color:white;
-    font-size:1.2em;
-}
-
-
-h2#notre-concept{
+/*#our-concept {
     color:#ADBD06;
 }
-
-
+*/
 /* CREATORS */
 
+#creators .row {
+    margin: auto;
+}
+title {
+    display: block;
+}
 .roundedImage{
     overflow:hidden;
     -webkit-border-radius:100px;
@@ -195,51 +199,66 @@ h2#notre-concept{
     margin-left:auto;
 }
 
-div#crea{
-    padding:60px;
+
+#laurent{
+    width: 120%;
+}
+
+#creators {
+    min-height: 100vh;
 }
 /* MAP */
 
-div#find-us {
-        min-height:100vh;
-}
+@media screen and (max-width: 768px) {
+    #find-us {
+        min-height: 100vh;
+    }
 
+    #map {
+        width: 100%;
+    }
+}
 
 #map {
     width: 100%;
     height: 600px;
 }
 
-img#laurent{
-    width: 120%;
-}
-#creators{
-    min-height: 100vh;
-}
+/* LISTE */
+
+.text-area {
+     resize: none;
+     cols: 8;
+     rows: 20;
+ }
 
 /* CONTACT */
 
-div#contact{
+#large-buttons {
+    margin: 20px auto 10px;
+}
+
+div#contact {
     padding: 40px;
 }
 
-textarea{
-    margin-bottom:20px;
+.title_contact {
+    color: white;
 }
 
-h2.form{
+.text-area1, .text-area2 {
+    margin-bottom:20px;
+    height: 150px;
+}
+
+h2.form {
     color:white;
 }
 
-#form1{
+#form1 , #form2 {
     display:none;
     width: 50%;
-
-}
-
-#form2{
-    display:none;
-    width: 50%;
+    margin: auto;
 }
 
 .btn-primary {
@@ -252,8 +271,8 @@ div#container-contact{
     background-image: url(../img/original-restaurant-1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top;
-    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
     min-height: 100vh;
 }
 
@@ -275,23 +294,19 @@ div#container-contact{
     border-color: #8E9B00;
 }
 
-.btn-primary:active, .btn-primary.active, .btn-primary:link{
+.btn-primary:active, .btn-primary.active, .btn-primary:link {
     cursor:pointer;
     background: #8E9B00;
     border-color: #8E9B00;
     box-shadow: none;
 }
 
-#large-buttons{
-    margin-bottom: 10px;
-}
 
 /* FOOTER */
 
 footer{
-    height: 500px;
+    height: 250px;
     background-color: #343436;
-    min-height: 100vh;
     color:white;
 }
 
@@ -311,6 +326,11 @@ footer{
     border-radius: 3px;
 }
 
+.modal-content {
+    padding: 0px 10px;
+}
+
 i.fa{
     font-size:25px;
 }
+
