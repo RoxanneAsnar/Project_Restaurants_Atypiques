@@ -24,7 +24,7 @@
             <?php include "inc/concept.php"; ?>
             <?php include "inc/creators.php"; ?>
             <div id="find-us container-fluid">
-                <h2>Où nous trouver?</h2>
+                <h2 class="where_title">Où nous trouver?</h2>
                 <div class="row">
                     <div class="col-xs-12 col-lg-6">
                         <?php include "inc/map.php"; ?>
@@ -36,7 +36,6 @@
             </div>
             <?php include "inc/contact.php"; ?>
         </main>
-
         <footer>
             <?php include "inc/footer.php"; ?>
         </footer>
@@ -55,7 +54,6 @@
         <script type="text/javascript" src="scripts/scripts-jquery.js"></script>
         <script src="scripts/scripts-jquery.js"></script>
         <script src="scripts/smooth-scroll.js"></script>
-
-        </div>
+    </div>
 </body>
 </html>

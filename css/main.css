@@ -1,17 +1,17 @@
 body{
     box-sizing: border-box;
-
-}
-
-*{
-    box-sizing: border-box;
 }
 
 p{
     font-family: 'Raleway', sans-serif;
 }
-h2{
+
+h2 {
     font-family: 'Croissant One', cursive;
+}
+
+#mentions h3 {
+    font-family: 'Raleway', sans-serif;
 }
 
 .container-fluid {
@@ -19,6 +19,7 @@ h2{
     padding-left: 0;
 }
 /* MAIN */
+
 main{
     margin-top: -55px;
     z-index: 100;
@@ -77,21 +78,16 @@ nav li a:focus .nav li a:hover {
 /*div.collapse{
     background-color: rgba(51,51,51,0.7);
 }*/
+
 /* CONCEPT */
 
-div#concept{
+#concept {
     padding : 20px;
-    background-color: #703A04;
-    background-image: url(../img/original-restaurant-6.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    background: url(../img/original-restaurant-6.jpg) center/cover no-repeat fixed;
     min-height: 100vh;
-
 }
 
-#container-text{
+#container-text {
     margin-top: 15%;
     margin-bottom: auto;
     background-color: rgba(51,51,51,0.5);
@@ -99,44 +95,40 @@ div#concept{
     -moz-border-radius: 25px;
     border-radius: 25px;
     padding:10px;
+    width: 50%;
 }
 
-h1{
+h1 {
     font-family: 'Croissant One', cursive;
     font-size:3.5em;
     color:white;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-}
-
-h1 , p#our-concept{
     text-align: center;
 }
 
-#foryou{
+#our-concept {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+#foryou {
     font-size:1.2em;
     font-weight:bold;
 }
-p#our-concept{
-    color:white;
-    font-size:1.2em;
-}
 
-
-h2#notre-concept{
+/*#our-concept {
     color:#ADBD06;
 }
-
-img#wood{
-    margin-bottom:15px;
-}
-
-
-
+*/
 /* CREATORS */
+
 #creators .row {
     margin: auto;
 }
-
+title {
+    display: block;
+}
 .roundedImage{
     overflow:hidden;
     -webkit-border-radius:100px;
@@ -148,6 +140,13 @@ img#wood{
     margin-left:auto;
 }
 
+#laurent{
+    width: 120%;
+}
+
+#creators {
+    min-height: 100vh;
+}
 /* MAP */
 
 @media screen and (max-width: 768px) {
@@ -165,20 +164,21 @@ img#wood{
     height: 600px;
 }
 
-img#laurent{
-    width: 120%;
-}
-#creators{
-    min-height: 100vh;
-}
+/* LISTE */
+
+.text-area {
+     resize: none;
+     cols: 8;
+     rows: 20;
+ }
 
 /* CONTACT */
 
-div#contact{
+div#contact {
     padding: 40px;
 }
 
-textarea{
+textarea {
     margin-bottom:20px;
 }
 
@@ -265,4 +265,8 @@ footer{
     -moz-border-radius: 3px;
     -o-border-radius: 3px;
     border-radius: 3px;
+}
+
+.modal-content {
+    padding: 0px 10px;
 }
