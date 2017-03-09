@@ -178,6 +178,10 @@ div#contact {
     padding: 40px;
 }
 
+.title_contact {
+    color: white;
+}
+
 textarea {
     margin-bottom:20px;
 }
@@ -247,7 +251,7 @@ div#container-contact{
 /* FOOTER */
 
 footer{
-    height: 500px;
+    height: 250px;
     background-color: rgb(100, 100, 100);
 }
 

@@ -1,5 +1,6 @@
 <div id="container-contact">
     <div id="contact">
+        <h2 classe="title_contact">Comment nous joindre?</h2>
         <div class="row" id="large-buttons">
             <div class="col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <button type="button" class="btn btn-primary btn-lg btn-block" id="info-button">Besoin d'informations ?</button>
