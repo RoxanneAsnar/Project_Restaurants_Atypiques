@@ -3,7 +3,7 @@ p{
 }
 h2{
     font-family: 'Croissant One', cursive;
-    margin-top:80px;
+    margin-top: 20px;
 }
 
 .container-fluid {
@@ -59,13 +59,64 @@ nav{
     color:#44453F;
 }
 
-#logo{
-    width:100%;
-    height:100%;
+
+#logo {
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    left: -373px;
 }
-/*div.collapse{
-    background-color: rgba(51,51,51,0.7);
-}*/
+
+@media screen and (min-width: 200px) and (max-width : 800px) {
+
+    .navbar-inverse .navbar-toggle {
+        border-color: unset;
+        z-index: 2000;
+        background-color: #44453F;
+    }
+
+    ul.nav.navbar-nav {
+        margin-top: 50px;
+    }
+
+    .navbar-brand {
+        display: none;
+        width: 720px;
+        float: right;
+    }
+
+    .navbar-header {
+        width: 800px;
+        float: left;
+    }
+
+    button.navbar-toggle.navbar-default {
+        left: 45px;
+        position: fixed;
+    }
+
+}
+    /*.container-fluid{
+        background-color: rgb(129,174,57);
+        position: absolute;
+    }*/
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border: unset;
+    }
+}
+
+@media screen and (min-width : 800px) {
+    .navbar-brand {
+        display: initial;
+    }
+}
+
+.navbar-brand {
+    padding: 5px;
+    width: 1200px;
+}
+
 /* CONCEPT */
 
 div#concept{
