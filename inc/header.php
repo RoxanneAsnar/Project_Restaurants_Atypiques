@@ -1,10 +1,10 @@
 
 <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
+    <div class="container-fluid">
 
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header custom-nav">
-            <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="logo" id="logo"></a>
+            <a class="navbar-brand" href="#"><img src="img/RestaurantsAtypiques-A-1.svg" alt="logo" id="logo"></a>
             <button type="button" class="navbar-toggle navbar-default"data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
