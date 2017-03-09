@@ -1,5 +1,5 @@
 <div id="concept" class="row">
-    <div id="container-text" class="offset-md-2 offset-sm-1 col-xs-12 col-sm-10 col-md-8 col-lg-6">
+    <div id="container-text" class="col-md-offset-2 col-sm-offset-1 col-xs-12 col-sm-10 col-md-8 col-lg-6">
         <h1>Restaurants Atypiques</h1>
         <p id="our-concept">
             Vous rêviez de manger un couscous suspendu à 30 mètres de hauteur? <br/>Vous proposez dans votre steakhouse de déguster un bon steak entourés de fauves en plein air?<br/> <br/>

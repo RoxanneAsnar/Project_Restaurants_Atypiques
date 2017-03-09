@@ -23,7 +23,7 @@
         <main>
             <?php include "inc/concept.php"; ?>
             <?php include "inc/creators.php"; ?>
-            <div id="find-us container-fluid">
+            <div id="find-us" class="container-fluid">
                 <h2 class="where_title">Où nous trouver?</h2>
                 <div class="row">
                     <div class="col-xs-12 col-lg-6">
@@ -36,7 +36,7 @@
             </div>
             <?php include "inc/contact.php"; ?>
         </main>
-        <footer>
+        <footer id="footer">
             <?php include "inc/footer.php"; ?>
         </footer>
         <script src="https://code.jquery.com/jquery-3.1.1.js"

@@ -16,8 +16,8 @@
             moqsginyù pçu bdùpudni pzkpnrize*e^àrzer
         </p>
         <div class="scroll-up">
-            <a href="#header">
-                <i class="class="fa fa-arrow-up js-scrollTo aria-hidden="true"></i>
+            <a href="#header" class="js-scrollTo" >
+                <i class="fa fa-arrow-up js-scrollTo" aria-hidden="true"></i>
             </a>
         </div>
         <div><a id="mentions" data-toggle="modal" data-target="#myModal">Mentions Légales</a></div>
