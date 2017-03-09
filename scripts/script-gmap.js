@@ -37,7 +37,6 @@ $(function() {
     var center;
     $(function calculateCenter() {
         center = $("#map").getCenter();
-
         google.maps.event.addDomListener($("#map"), 'idle', function () {
             calculateCenter();
         });
