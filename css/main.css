@@ -12,9 +12,9 @@ h2 {
     margin-bottom: 40px;
 }
 
-h3 {
+/*h3 {
     color: white;
-}
+}*/
 
 .container-fluid {
     padding-right: 0;
@@ -109,7 +109,6 @@ nav{
     }
 
 }
-
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
         border: unset;
     }
@@ -162,15 +161,11 @@ h1 {
     font-weight:bold;
 }
 
-/*#our-concept {
-    color:#ADBD06;
-}
-*/
 /* CREATORS */
+
 div.creators-text-container{
     margin-bottom: auto;
     background-color: white;
-   /* background-color: rgba(255,255,255,0.5);*/
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
@@ -227,10 +222,9 @@ title {
     background-color: #EE712A;
     padding:20px;
 }
-}
+
 /* MAP */
 
-}
 @media screen and (max-width: 768px) {
     #find-us {
         min-height: 100vh;
@@ -372,6 +366,7 @@ div#container-contact{
 }
 
 
+
 footer{
     height: 250px;
     background-color: #44453F;
@@ -402,6 +397,13 @@ footer{
     right: 20px;
 }
 
+.ico {
+    width: 30%;
+    height: 30%;
+    float: left;
+    padding: 5px;
+}
+
 .modal-content {
     padding: 0px 10px;
     color: black;
@@ -411,6 +413,9 @@ i.fa {
     color: #ffffff;
     font-size: 40px;
     float:right;
+}
+footer h3 {
+    margin-top: 10px;
 }
 
 div.scroll-up{
