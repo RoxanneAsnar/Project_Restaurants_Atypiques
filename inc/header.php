@@ -16,7 +16,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="#concept" class="active js-scrollTo">Le concept</a></li>
                 <li><a href="#creators" class="js-scrollTo" >Les créateurs</a></li>
-               <!-- <li><a href="#top" class="js-scrollTo" >Le top 3</a></li> -->
+                <li><a href="#carousel" class="js-scrollTo" >Plats atypiques</a></li>
                 <li><a href="#find-us" class="js-scrollTo" >Où nous trouver</a></li>
                 <li><a href="#contact" class="js-scrollTo" >Contact</a></li>
                 <li><a href="#footer" class="js-scrollTo" >Informations pratiques</a></li>

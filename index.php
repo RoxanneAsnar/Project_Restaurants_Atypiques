@@ -23,6 +23,7 @@
         <main>
             <?php include "inc/concept.php"; ?>
             <?php include "inc/creators.php"; ?>
+            <?php include "inc/carousel.php"; ?>
             <div id="find-us" class="container-fluid">
                 <h2 class="where_title">Où nous trouver?</h2>
                 <div class="row where">

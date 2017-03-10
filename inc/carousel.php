@@ -10,13 +10,13 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <img class="center-block" src="img/il_vino.jpg" alt="Il Vino">
+                <img class="center-block" src="img/plate-wood-table-1.jpg" alt="Restaurant 1">
             </div>
             <div class="item">
-                <img class="center-block" src="img/café_des_chats.jpg" alt="Le Coin Des Chats">
+                <img class="center-block" src="img/plate-girl.jpg" id="girl" alt="Restaurant 2">
             </div>
             <div class="item">
-                <img class="center-block" src="img/dans_le_noir.jpg" alt="Dans Le Noir">
+                <img class="center-block" src="img/food-salad-healthy-vegetables.jpg" alt="Restaurant 3">
             </div>
         </div>
 

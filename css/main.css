@@ -193,6 +193,13 @@ div.creators-text-container{
 title {
     display: block;
 }
+h3.nom {
+    color: #343436;
+}
+
+img#girl {
+    width: 120%;
+}
 
 #titre-createurs{
     color:white;
@@ -283,6 +290,10 @@ div#contact {
     padding: 40px;
 }
 
+input.form-control , textarea.form-control{
+    background-color: rgba(255,255,255,0.7);
+}
+
 .title_contact {
     color: white;
 }
@@ -302,10 +313,6 @@ h2.form {
 }
 #form2{
     display:none;
-}
-
-div#large-buttons{
-    width:59%;
 }
 
 button#info-button , button#joinus-button , button.send{
