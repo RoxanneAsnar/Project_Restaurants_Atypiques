@@ -2,13 +2,13 @@
     <div id="contact">
         <h2 id="contact-titre">Comment nous joindre?</h2>
         <div class="row" id="large-buttons">
-            <div class=" button1 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class=" button1 col-xs-12 col-sm-12 col-md-offset-3 col-lg-offset-3 col-md-3 col-lg-3">
                 <button type="button" class="btn btn-primary btn-lg btn-block" id="info-button">Besoin d'informations ?</button>
             </div>
-            <div class="button2 col-xs-12 col-sm-12 col-md-6 col-lg-6" >
+            <div class="button2 col-xs-12 col-sm-12 col-md-3 col-lg-3" >
                <button type="button" class="btn btn-primary btn-lg btn-block" id="joinus-button">Envie de rejoindre la franchise ?</button>
             </div>
-            <div class="col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2"></div>
+            <div class="col-md-offset-3 col-lg-offset-3"></div>
         </div>
         <div id="form1">
             <form action="" method="post" role="form" id="message-form" class="row">
