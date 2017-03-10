@@ -1,19 +1,17 @@
 <div class="row">
+    <div class="col1_footer col-xs-3 col-sm-3 col-md-4 col-lg-4">
+        <img src="./img/RestaurantsAtypiques-A-1.svg" alt="logo_footer">
+    </div>
     <div class="col-xs-3 col-sm-3 col-md-4 col-lg-4">
-        <p>
-            moqsginyù pçu bdùpudni pzkpnrize*e^àrzer
-        </p>
+            <i class="fa fa-facebook ico" aria-hidden="true"></i>
+            <i class="fa fa-twitter ico" aria-hidden="true"></i>
+            <i class="fa fa-google-plus ico" aria-hidden="true"></i><br/>
+        <h3>Retrouvez-nous sur les réseaux sociaux!</h3>
     </div>
 
     <div class="col-xs-3 col-sm-3 col-md-4 col-lg-4">
         <p>
-            moqsginyù pçu bdùpudni pzkpnrize*e^àrzer
-        </p>
-    </div>
 
-    <div class="col-xs-3 col-sm-3 col-md-4 col-lg-4">
-        <p>
-            moqsginyù pçu bdùpudni pzkpnrize*e^àrzer
         </p>
         <div class="scroll-up">
             <a href="#header" class="js-scrollTo" >
@@ -21,6 +19,7 @@
             </a>
         </div>
         <div><a id="mentions" data-toggle="modal" data-target="#myModal">Mentions Légales</a></div>
+
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -104,6 +103,11 @@
                          <p>Natural-net est à votre disposition pour tous vos commentaires ou suggestions. Vous pouvez nous écrire par courrier électronique à : contact@natural-net.fr.</p>
                     </div>
                 </div>
+            </div>
+            <div class="scroll-up">
+                <a href="#header">
+                    <i class="class="fa fa-arrow-up js-scrollTo aria-hidden="true"></i>
+                </a>
             </div>
         </div>
     </div>

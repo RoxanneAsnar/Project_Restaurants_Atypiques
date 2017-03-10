@@ -26,7 +26,7 @@
             <?php include "inc/carousel.php"; ?>
             <div id="find-us" class="container-fluid">
                 <h2 class="where_title">Où nous trouver?</h2>
-                <div class="row">
+                <div class="row where">
                     <div class="col-xs-12 col-lg-6">
                         <?php include "inc/map.php"; ?>
                     </div>

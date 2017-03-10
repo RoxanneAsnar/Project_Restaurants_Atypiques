@@ -12,9 +12,9 @@ h2 {
     margin-bottom: 40px;
 }
 
-h3 {
+/*h3 {
     color: white;
-}
+}*/
 
 .container-fluid {
     padding-right: 0;
@@ -109,7 +109,6 @@ nav{
     }
 
 }
-
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
         border: unset;
     }
@@ -162,11 +161,8 @@ h1 {
     font-weight:bold;
 }
 
-/*#our-concept {
-    color:#ADBD06;
-}
-*/
 /* CREATORS */
+
 div.creators-text-container{
     margin-bottom: auto;
     background-color: white;
@@ -177,6 +173,18 @@ div.creators-text-container{
     margin-top: 40px;
     margin-bottom: 40px;
     height: 265px;
+}
+
+@media screen and (max-width: 768px) {
+    #find-us {
+        min-height: 100vh;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    #creators {
+        min-height: 50vh;
+    }
 }
 
 #creators .row {
@@ -221,7 +229,7 @@ img#girl {
     background-color: #EE712A;
     padding:20px;
 }
-}
+
 /* MAP */
 
 @media screen and (max-width: 768px) {
@@ -239,17 +247,34 @@ img#girl {
     height: 600px;
 }
 
+
+/* LIST */
+
+.where {
+    margin-top: 50px;
+}
+
+h4 {
+    margin-top: 0;
+}
+
 div#find-us{
     padding: 20px;
 }
 
 /* LISTE */
 
+
 .text-area {
      resize: none;
      cols: 8;
      rows: 20;
  }
+
+#list img {
+    max-width: 80%;
+    height: auto;
+}
 
 /* CONTACT */
 
@@ -316,6 +341,7 @@ div#container-contact{
     background-color: #EE712A;
     border-color: #DD6425;
     font-size:0.9em;
+
     margin-bottom: 15px;
 }
 
@@ -341,15 +367,20 @@ div#container-contact{
 
 /* FOOTER */
 
+
 #mentions h3 {
     font-family: 'Raleway', sans-serif;
 }
 
+
+
 footer{
     height: 250px;
-    background-color: #343436;
+    background-color: #44453F;
     color:white;
+
     padding: 20px;
+
 }
 
 .scroll-up a {
@@ -367,9 +398,22 @@ footer{
     -o-border-radius: 3px;
     border-radius: 3px;
 }
+#mentions {
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+
+.ico {
+    width: 30%;
+    height: 30%;
+    float: left;
+    padding: 5px;
+}
 
 .modal-content {
     padding: 0px 10px;
+    color: black;
 }
 
 i.fa {
@@ -377,8 +421,10 @@ i.fa {
     font-size: 40px;
     float:right;
 }
+footer h3 {
+    margin-top: 10px;
+}
 
 div.scroll-up{
     float:right;
 }
-
