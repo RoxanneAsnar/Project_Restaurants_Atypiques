@@ -277,7 +277,7 @@ div#find-us{
 
 /* CONTACT */
 
-form#message-form h3{
+form#message-form h3, form#join-us-form h3{
     font-size: 24px;
     color: white;
     font-weight: 500;
@@ -298,6 +298,7 @@ div#contact {
 
 input.form-control , textarea.form-control{
     background-color: rgba(255,255,255,0.7);
+    color: black;
 }
 
 .title_contact {
@@ -353,22 +354,8 @@ div#container-contact{
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     cursor:pointer;
-    background: #DD6425;
-    border-color: #EE712A;
-}
-
-.btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    cursor:pointer;
-    background: #CC3F35;
-    border-color: #BE1E2D;
-}
-
-
-.btn-primary:active:focus{
-    cursor:pointer;
-    background: #CC3F35;
-    border-color: #BE1E2D;
-    box-shadow: none;
+    background: #DD6425 !important;
+    border-color: #EE712A !important;
 }
 
 /* FOOTER */
