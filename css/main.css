@@ -374,7 +374,7 @@ div#container-contact{
 /* FOOTER */
 
 footer{
-    height: 100px;
+    height: 130px;
     background-color: #44453F;
     color:white;
 
@@ -383,7 +383,6 @@ footer{
 }
 
 .scroll-up a {
-    background: #ffffff;
     display: block;
     height: 28px;
     width: 28px;
@@ -432,10 +431,11 @@ footer h3 {
 
 div.scroll-up{
     float:right;
+    margin-left: 10%;
 }
 
 img#logo_footer{
-    width: 60%;
+    width: 50%;
     margin-left: 10%;
 }
 
@@ -446,6 +446,10 @@ div#footer-part{
 }
 
 a#mentions{
-    font-decoration: none;
-    color:
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+a#mentions:hover{
+    color: #ADBD06;
 }

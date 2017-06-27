@@ -19,7 +19,6 @@
                 <li><a href="#carousel" class="js-scrollTo" >Plats atypiques</a></li>
                 <li><a href="#find-us" class="js-scrollTo" >Où nous trouver</a></li>
                 <li><a href="#contact" class="js-scrollTo" >Contact</a></li>
-                <li><a href="#footer" class="js-scrollTo" >Informations pratiques</a></li>
             </ul>
         </div>
     </div><!-- /.navbar-collapse -->
