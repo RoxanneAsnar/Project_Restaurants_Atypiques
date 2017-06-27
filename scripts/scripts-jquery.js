@@ -1,11 +1,11 @@
     $('#info-button').on('click', function(){
-            $('#form1').show();
-            $('#form2').hide();
+            $('#form1').fadeIn();
+            $('#form2').fadeOut();
     });
 
     $('#joinus-button').on('click', function(){
-        $('#form2').show();
-        $('#form1').hide();
+        $('#form2').fadeIn();
+        $('#form1').fadeOut();
     });
 
     /*$object.onmousedown = function($clickDown){

@@ -1,5 +1,6 @@
 body{
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 p{
     font-family: 'Raleway', sans-serif;
@@ -164,7 +165,6 @@ h1 {
 /* CREATORS */
 
 div.creators-text-container{
-    margin-bottom: auto;
     background-color: white;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -199,6 +199,7 @@ h3.nom {
 
 img#girl {
     width: 120%;
+    height:120%;
 }
 
 #titre-createurs{
@@ -267,8 +268,6 @@ div#find-us{
 
 .text-area {
      resize: none;
-     cols: 8;
-     rows: 20;
  }
 
 #list img {
@@ -277,6 +276,13 @@ div#find-us{
 }
 
 /* CONTACT */
+
+form#message-form h3{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
 
 h2#contact-titre{
     color: white;
@@ -367,15 +373,8 @@ div#container-contact{
 
 /* FOOTER */
 
-
-#mentions h3 {
-    font-family: 'Raleway', sans-serif;
-}
-
-
-
 footer{
-    height: 250px;
+    height: 100px;
     background-color: #44453F;
     color:white;
 
@@ -384,7 +383,7 @@ footer{
 }
 
 .scroll-up a {
-    background: #fffffff;
+    background: #ffffff;
     display: block;
     height: 28px;
     width: 28px;
@@ -400,8 +399,6 @@ footer{
 }
 #mentions {
     position: relative;
-    top: 50px;
-    right: 20px;
 }
 
 .ico {
@@ -412,19 +409,43 @@ footer{
 }
 
 .modal-content {
-    padding: 0px 10px;
+    padding: 0 10px;
     color: black;
 }
 
 i.fa {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 2em;
     float:right;
 }
+i.fa:hover{
+    color: #ADBD06;
+}
+
 footer h3 {
-    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
+    color: #ADBD06;
+    margin-top: 0;
+    font-weight: 400;
 }
 
 div.scroll-up{
     float:right;
+}
+
+img#logo_footer{
+    width: 60%;
+    margin-left: 10%;
+}
+
+div#footer-part{
+    border-left-width: 2px;
+    border-color: #ADBD06;
+    border-left-style: solid
+}
+
+a#mentions{
+    font-decoration: none;
+    color:
 }
