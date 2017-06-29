@@ -10,23 +10,33 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" >
-
-            <div class="carousel-caption anc item active fill" style="background-image:url('img/plate-wood-table-1.jpg'); background-repeat: no-repeat; background-position: center; background-size: 100%;">
-                <h2 class="slider">Indian Palace II</h2>
-                <a href="#"><button class="btn-primary btn">Je réserve</button></a>
-            </div>
-
-            <div class="carousel-caption anc item fill" style="background-image:url('img/plate-girl.jpg'); background-repeat: no-repeat; background-position: center; background-size: 100%;" id="girl">
+                <div class="item active fill carousel-caption" style="
+                background-image:url('img/plate-wood-table-1.jpg'); background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;">
+                    <div id="anc"><h2 class="slider">Indian Palace II</h2>
+                    <a href="#"><button class="btn-primary btn">Je réserve</button></a>
+                    </div>
+                </div>
+            <div class="carousel-caption anc item fill" style="
+            background-image:url('img/plate-girl.jpg');background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;" id="girl">
                 <h2 class="slider">Noodle addiction</h2>
                 <a href="#"><button class="btn-primary btn">Je réserve</button></a>
             </div>
 
-            <div class="carousel-caption anc item fill" style="background-image:url('img/food-salad-healthy-vegetables.jpg'); background-repeat: no-repeat; background-position: center; background-size: 100%; id="girl">
+            <div class="carousel-caption anc item fill" style="
+            background-image:url('img/food-salad-healthy-vegetables.jpg'); background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;" id="girl">
                 <h2 class="slider">La compagnie des salades</h2>
                 <a href="#"><button class="btn btn-primary">Je réserve</button></a>
             </div>
         </div>
-    </div>
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -37,5 +47,4 @@
         <span class="glyphicon glyphicon-chevron-right"></span>
         <span class="sr-only">Next</span>
     </a>
-
 </div>
