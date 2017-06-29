@@ -49,12 +49,12 @@
                 crossorigin="anonymous">
         </script>
         <!-- Scripts for Google Maps below -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBKs7XZ5tqp9RXFJi0TU9psEZecCkw-z4Y "></script>
-        <script type="text/javascript" src="scripts/jquery.googlemap.js"></script>
-        <script type="text/javascript" src="scripts/script-gmap.js"</script>
         <script type="text/javascript" src="scripts/scripts-jquery.js"></script>
-        <script src="scripts/scripts-jquery.js"></script>
-        <script src="scripts/smooth-scroll.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKs7XZ5tqp9RXFJi0TU9psEZecCkw-z4Y"></script>
+        <script type="text/javascript" src="scripts/jquery.googlemap.js"></script>
+        <script type="text/javascript" src="scripts/script-gmap.js"></script>
+        <script type="text/javascript" src="scripts/smooth-scroll.js"></script>
+        <script type="text/javascript" src="scripts/carousel.js"></script>
     </div>
 </body>
 </html>

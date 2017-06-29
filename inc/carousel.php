@@ -1,31 +1,41 @@
-<div id="carousel">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div class="container-fluid" id="carousel">
+    <!-- Header Carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img class="center-block" src="img/plate-wood-table-1.jpg" alt="Restaurant 1">
+        <div class="carousel-inner" >
+
+            <div class="carousel-caption anc item active fill" style="background-image:url('img/plate-wood-table-1.jpg'); background-repeat: no-repeat; background-position: center; background-size: 100%;">
+                <h2 class="slider">Indian Palace II</h2>
+                <a href="#"><button class="btn-primary btn">Je réserve</button></a>
             </div>
-            <div class="item">
-                <img class="center-block" src="img/plate-girl.jpg" id="girl" alt="Restaurant 2">
+
+            <div class="carousel-caption anc item fill" style="background-image:url('img/plate-girl.jpg'); background-repeat: no-repeat; background-position: center; background-size: 100%;" id="girl">
+                <h2 class="slider">Noodle addiction</h2>
+                <a href="#"><button class="btn-primary btn">Je réserve</button></a>
             </div>
-            <div class="item">
-                <img class="center-block" src="img/food-salad-healthy-vegetables.jpg" alt="Restaurant 3">
+
+            <div class="carousel-caption anc item fill" style="background-image:url('img/food-salad-healthy-vegetables.jpg'); background-repeat: no-repeat; background-position: center; background-size: 100%; id="girl">
+                <h2 class="slider">La compagnie des salades</h2>
+                <a href="#"><button class="btn btn-primary">Je réserve</button></a>
             </div>
         </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <img src="/img/slider_icons.png">
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
     </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+
 </div>

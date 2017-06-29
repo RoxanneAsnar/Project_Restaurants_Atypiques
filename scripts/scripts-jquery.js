@@ -8,14 +8,6 @@
         $('#form1').fadeOut();
     });
 
-    /*$object.onmousedown = function($clickDown){
-        $('.btn-primary').css('background-color:#8E9B00;');
-    };
-$clickDown('.btn-primary').on('click', function(){
-        $('.btn-primary').css('background-color:#8E9B00;');
-    });
-
-    /* The nav background-color appears when you scroll until the next part */
 
     $(function () {
         $(window).scroll(function () {
