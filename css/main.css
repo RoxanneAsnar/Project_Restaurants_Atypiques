@@ -1,22 +1,476 @@
 body{
-    background-color: color:rgb(207,181,144);
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-family: 'Raleway', sans-serif;
 }
 
-div#concept{
+h2 {
+    font-family: 'Croissant One', cursive;
+    margin-top: 80px;
+    margin-left: 28px;
+    margin-bottom: 40px;
+}
+
+/*h3 {
+    color: white;
+}*/
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+/* MAIN */
+
+main{
+    margin-top: 50px;
+    z-index: 100;
+}
+
+/* HEADER */
+
+
+ul.nav.navbar-nav{
+    display:inline;
+    position:fixed;
+    right: 0;
+    font-family:'Raleway',sans-serif;
+    font-size:1.2em;
+    font-weight:300;
+}
+nav{
+    background-color: rgb(129,174,57);
+}
+.navbar{
+    margin-bottom: 0;
+    border-radius:unset;
+    position: fixed;
+
+}
+
+.navbar-nav > li , .navbar-inverse {
+    background-color: rgb(129,174,57);
+    color:white;
+    border:none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    font-weight:500;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus {
+    text-decoration: none;
+    background-color: unset;
+    color:#44453F;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+    text-decoration: none;
+    background-color: unset;
+    color:#44453F;
+}
+
+
+#logo {
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    left: -373px;
+    z-index: 150;
+}
+
+@media screen and (min-width: 200px) and (max-width : 800px) {
+
+    .navbar-inverse .navbar-toggle {
+        border-color: unset;
+        z-index: 2000;
+        background-color: #44453F;
+    }
+
+    ul.nav.navbar-nav {
+        margin-top: 50px;
+    }
+
+    .navbar-brand {
+        display: none;
+        width: 720px;
+        float: right;
+    }
+
+    .navbar-header {
+        width: 800px;
+        float: left;
+    }
+
+    button.navbar-toggle.navbar-default {
+        left: 45px;
+        position: fixed;
+    }
+
+}
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border: unset;
+    }
+}
+
+@media screen and (min-width : 800px) {
+    .navbar-brand {
+        display: initial;
+    }
+}
+
+.navbar-brand {
+    padding: 5px;
+    width: 1200px;
+}
+/* CONCEPT */
+
+#concept {
     padding : 20px;
-    background-color: rgb(117,137,24);
+    background: url(../img/original-restaurant-6.jpg) center/cover no-repeat fixed;
+    min-height: 100vh;
+}
+
+#container-text {
+    margin-bottom: auto;
+    background-color: rgba(51,51,51,0.5);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding:10px;
+    margin-top: 145px;
+}
+
+h1 {
+    font-family: 'Croissant One', cursive;
+    font-size:3.5em;
+    color:white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+#our-concept {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+#foryou {
+    font-size:1.2em;
+    font-weight:bold;
+}
+
+/* CREATORS */
+
+div.creators-text-container{
+    background-color: white;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 265px;
+}
+
+@media screen and (max-width: 768px) {
+    #find-us {
+        min-height: 100vh;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    #creators {
+        min-height: 50vh;
+    }
+}
+
+#creators .row {
+    margin: auto;
+}
+title {
+    display: block;
+}
+h3.nom {
+    color: #343436;
+}
+
+img#girl {
+    width: 120%;
+    height:120%;
+}
+
+#titre-createurs{
+    color:white;
+}
+
+.roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    width:200px;
+    height:200px;
+    margin-right: auto;
+    margin-left:auto;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+}
+
+#laurent{
+    width: 120%;
+}
+
+#creators {
+    min-height: 100vh;
+    background-color: #EE712A;
+    padding:20px;
+}
+
+/* CAROUSEL */
+
+.carousel-inner{
+    height: 100vh;
+}
+
+.fill{
+    height:100%;
+}
+
+.carousel-control{
+    z-index: 10;
+}
+
+div#myCarousel button{
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+div#myCarousel h2{
+    margin-top: 35vh;
+}
+
+/* MAP */
+
+@media screen and (max-width: 768px) {
+    #find-us {
+        min-height: 100vh;
+    }
+
+    #map {
+        width: 90%;
+    }
+}
+
+#map {
+    width: 90%;
+    height: 120vh;
+    margin-left: 30px;
 }
 
 
-img#wood{
+/* LIST */
+
+.where {
+    margin-top: 50px;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+div#find-us{
+    padding: 20px;
+}
+
+/* LISTE */
+
+
+.text-area {
+     resize: none;
+ }
+
+#list img.big{
+    height: 90vh;
+}
+
+#list img.thumbnail{
     width:100%;
 }
 
-p#our-concept{
-    color:white;
-    font-size:1em;
+div#modal-content{
+    width: 80%;
+    height: 90vh;
 }
-h2 #concept{
+/* CONTACT */
 
+form#message-form h3, form#join-us-form h3{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+
+h2#contact-titre{
+    color: white;
+}
+
+#large-buttons {
+    margin: 20px auto 10px;
+}
+
+div#contact {
+    padding: 40px;
+}
+
+input.form-control , textarea.form-control{
+    background-color: rgba(255,255,255,0.7);
+    color: black;
+}
+
+.title_contact {
+    color: white;
+}
+
+.text-area1, .text-area2 {
+    margin-bottom:20px;
+    height: 150px;
+}
+
+h2.form {
+    color:white;
+}
+
+#form1 , #form2 {
+    width: 50%;
+    margin: auto;
+}
+#form2{
+    display:none;
+}
+
+button#info-button , button#joinus-button , button.send{
+    font-size: 1.2em;
+}
+
+button.btn.btn-primary.send{
+    margin-top: 15px;
+}
+div#container-contact{
+    background-image: url(../img/original-restaurant-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.form-control:focus {
+    border-color: #ADBD06;
+    box-shadow: inset 0 1px 1px rgba(173,189,5,.075);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #EE712A;
+    border-color: #DD6425;
+    font-size:0.9em;
+
+    margin-bottom: 15px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    cursor:pointer;
+    background: #DD6425 !important;
+    border-color: #EE712A !important;
+}
+
+/* FOOTER */
+
+footer{
+    height: 130px;
+    background-color: #44453F;
+    color:white;
+
+    padding: 20px;
+
+}
+
+.scroll-up a {
+    display: block;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    color: #000;
+    opacity: 0.7;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+#mentions {
+    position: relative;
+}
+
+.ico {
+    width: 30%;
+    height: 30%;
+    float: left;
+    padding: 5px;
+}
+
+.modal-content {
+    padding: 0 0;
+    color: black;
+}
+
+.modal-dialog{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+i.fa {
+    color: #ffffff;
+    font-size: 2em;
+    float:right;
+}
+i.fa:hover{
+    color: #ADBD06;
+}
+
+footer h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
+    color: #ADBD06;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+div.scroll-up{
+    float:right;
+    margin-left: 10%;
+}
+
+img#logo_footer{
+    width: 50%;
+    margin-left: 10%;
+}
+
+div#footer-part{
+    border-left-width: 2px;
+    border-color: #ADBD06;
+    border-left-style: solid
+}
+
+a#mentions{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+a#mentions:hover{
+    color: #ADBD06;
 }
