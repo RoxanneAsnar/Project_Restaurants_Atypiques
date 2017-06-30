@@ -267,7 +267,7 @@ div#myCarousel h2{
 
 #map {
     width: 90%;
-    height: 695px;
+    height: 120vh;
     margin-left: 30px;
 }
 
@@ -293,11 +293,18 @@ div#find-us{
      resize: none;
  }
 
-#list img {
-    max-width: 80%;
-    height: auto;
+#list img.big{
+    height: 90vh;
 }
 
+#list img.thumbnail{
+    width:100%;
+}
+
+div#modal-content{
+    width: 80%;
+    height: 90vh;
+}
 /* CONTACT */
 
 form#message-form h3, form#join-us-form h3{
@@ -417,8 +424,13 @@ footer{
 }
 
 .modal-content {
-    padding: 0 10px;
+    padding: 0 0;
     color: black;
+}
+
+.modal-dialog{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 i.fa {
